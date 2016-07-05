@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+/* Reset CSS */
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 !important;
+	font-family: 'Lato', sans-serif;
+}
+a, a:link, a:hover, a:active, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	float: left;
+	background: #062740;
+}
+
+.header .wrap {
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.header .logo {
+	width: auto;
+	float: left;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.header .logo i {
+	line-height: 25px;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.header nav {
+	width: auto;
+	float: right;
+	margin-top: 5px;
+}
+
+.header nav li {
+	line-height: 25px;
+	margin-left: 20px;
+}
+
+.header .search {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/parallax-bg.jpg);
+	background-size: cover;
+	float: left;
+	width: 100%;
+}
+
+.header .small {
+	height: 300px !important;
+}
+
+.header input {
+	float: left;
+	height: auto;
+	padding: 20px;
+	border: none;
+	outline: none;
+}
+
+/* Latest */
+.latest {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.latest span {
+	float: left;
+	width: 100%;
+	color: #000;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.latest ul li {
+	width: 100%;
+	float: left;
+	color: #9d9d9d;
+}
+.latest>div ul li:before {
+	content: '\f105';
+	font-family: 'FontAwesome';
+	color: #12a802;
+	margin-right: 15px;
+}
+
+/* Counter */
+.counter {
+	width: 100%;
+	float: left;
+	background: url(../img/counter-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.counter>div {
+	background: #fff;
+	padding: 30px;
+}
+.counter span {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.counter div span:last-child {
+	margin-top: 10px;
+}
+
+/* Login */
+.login {
+	margin-top: 100px;
+}
+
+.login>div {
+	background: #fff;
+	padding: 80px 40px;
+	border: 1px solid #2c3e50;
+}
+.facebook {
+	width: 50%;
+	float: left;
+	border: none;
+	background-color: #395697;
+	outline: none;
+	color: #fff;
+	padding: 5px;
+}
+.google {
+	width: 50%;
+	float: left;
+	border: none;
+	background-color: #e0492f;
+	outline: none;
+	color: #fff;
+	padding: 5px;
+}
+.login .form-control {
+	border-radius: 0;
+	border: none;
+}
+.login .btn {
+	width: 50%;
+	float: left;
+	border-radius: 0;
+}
+
+/* Signup */
+.signup .btn {
+	margin-top: 20px;
+	margin-left: 25%;
+}
+
+
+/* Searching Blade */
+.research {
+	padding: 20px;
+	float: left;
+}
+.search-result>span {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.search-result .title {
+	width: 100%;
+	float: left;
+}
+.search-result .body{
+	width: 100%;
+	float: left;
+}
+.search-result .bar-left {
+	width: auto;
+	float: left;
+}
+.search-result .bar-right {
+	width: auto;
+	float: left;
+}
